@@ -1,0 +1,93 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #F6E5D2;
+  height: 100vh;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Row 1 */
+
+.row_1 {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Navbar */
+nav {
+  background-color: #FD966F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+ 
+}
+
+.image_description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  /*background-color: #B9A869;*/
+  margin:auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #A29C9B;
+  padding: 10px;
+  height: 300px;
+  border-radius: 25px;
+}
+.image_container{
+  margin-top: 30px;
+  margin-right: 40px;
+  min-width: 400px;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.main_image{
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Search Container */
+.search_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  border-radius: 25px;
+  background-color: #B9A869;
+  padding: 10px;
+}
