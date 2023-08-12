@@ -1,14 +1,17 @@
 
-export default function Search () {
+
+export default function Search (props) {
+    
     return (
         <div className="search_container">
-            <h3> Search for a Recipe!</h3>
-            <input type="text" placeholder="Search" />
-            <button>Search</button>
-            <div className="food_item_container">
-                <div className="food_name"> </div>
-                <div className="food_image"> </div>
-                <div className="food_calories"> </div>
-            </div>
+            <h3 className="search_heading"> Search for a Recipe!</h3>
+            <input className="search_box"
+                type="text" 
+                placeholder="Search"
+                value={props.query}
+                onChange={(e) => props.setQuery(e.target.value)}
+             />
+            
+           
         </div>
 )}

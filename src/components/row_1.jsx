@@ -4,7 +4,7 @@ export default function Row (){
         <div className="row_1">
             <div className="image_description"> 
                 <h1> Food4Life </h1>
-                <h4> Start searching for life changing recipes </h4>
+                <h4> Start searching for recipes </h4>
             </div>
             <div className="image_container">
                 <img className="main_image" 
