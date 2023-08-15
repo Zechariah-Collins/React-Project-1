@@ -38,6 +38,7 @@ function App() {
         calories={recipe['recipe']['calories']}
         image={recipe['recipe']['image']}
         totalTime={recipe['recipe']['totalTime']}
+        url={recipe['recipe']['url']}
       > 
       </Card>
     )

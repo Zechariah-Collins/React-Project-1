@@ -11,7 +11,5 @@ export default function Search (props) {
                 value={props.query}
                 onChange={(e) => props.setQuery(e.target.value)}
              />
-            
-           
         </div>
 )}
